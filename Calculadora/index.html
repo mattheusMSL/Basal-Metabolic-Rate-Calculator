@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora TDEE</title>
 </head>
 <body>
@@ -11,6 +12,47 @@
      <h1> Basal Metabolic rate </h1>  <!-- Perheps change it in the future-->
     </header>
 
+      <!-- campField to the gender -->
+
+        <form action="?" method="POST">
+        <div id="container">
+        <label for="idg">Gender</label>
+        <select id="idg">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        </select>
+
+        <!-- Camp field to the weight-->
+
+         <div>
+          <label for="">Weight in KG</label>
+          <input type="text"  id="idw"> <!-- modify it to number!!!!!-->
+         </div>
+
+         <!-- Camp field to the Height -->
+         <div>
+          <label for="">Height</label>
+          <input type="number" id="idh">
+         </div>
+
+         <!-- UPCOMING FEATURES -->
+
+         <!-- Camp field to the age -->
+
+         <div>
+          <label for="">Age</label>
+          <input type="number" id="ida">
+         </div>
+
+
+        <!-- Submit camp -->
+         <button>Next</button>
+
+      </div>
+     </form>
+
+    <script src="script.js"></script>
+     
 
    <footer>
      <p>&copy; Basal Metabolic rate by Matheus & Gabriel</p>
