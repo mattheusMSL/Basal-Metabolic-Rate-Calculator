@@ -1,1 +1,1 @@
-# Basal-Metaolic-Rate--Calculator-
+# Basal-Metabolic-Rate--Calculator-
