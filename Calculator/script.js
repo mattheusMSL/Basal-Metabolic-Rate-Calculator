@@ -5,7 +5,7 @@ function basalCaculator(gender,weight,height,age){
     // const age = document.getElementById("ida");
     let calcular = 0;
 
-    if(gender == "male"|| gender == "Male"){
+    if(gender == "male" || gender == "Male"){
 
        calcular = 66 + (13,8 * weight) + (5 * height) - (6,8 * age);
 
