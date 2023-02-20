@@ -1,0 +1,13 @@
+body{
+    /* display: flex; */
+    display: flex;
+}
+
+header{
+    
+    justify-content: center;
+    
+}
+form{
+    justify-content: center;
+}
