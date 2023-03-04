@@ -1,4 +1,5 @@
-function basalCaculator(gender,weight,height,age){
+function 
+basalCaculator(gender,weight,height,age){
     // const gender = document.getElementById("idg");
     // const weight = document.getElementById("idw");
     // const height = document.getElementById("idh");
